@@ -179,6 +179,26 @@ img{
     background-color: var(---negro);
     color: var(---blanco);
     padding-bottom: 3rem;
-    margin-top: 4rem;
-    
+    margin-top: 4rem;  
+}
+/*Sobre nosotros*/
+
+@media (min-width:768px){
+    .sobre-nosotros{
+        display: flex;
+        gap: 2rem;
+    }
+   
+    .sobre-nosotros__imagen , .sobre-nosotros__texto{
+        flex-basis:50% ;
+    }
+   /*Con grid
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+    */
+   
+  
 }
